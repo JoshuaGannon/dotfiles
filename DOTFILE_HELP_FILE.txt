@@ -132,7 +132,7 @@ dotfiles config --local status.showUntrackedFiles no
 
 ```bash
 dotfiles status         # View tracked file changes
-dotfiles add .bashrc    # Stage a tracked file
+.dotfiles/BOOTSTRAPPER/bootstrap-dotfiles.sh   # Stage a tracked file
 dotfiles commit -m "..."
 dotfiles push           # Sync to GitHub
 dotfiles pull           # Sync from GitHub
